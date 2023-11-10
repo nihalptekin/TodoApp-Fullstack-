@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #thirt paty
     'rest_framework',
+    'corsheaders',
+    'drf_yasg',
+    'debug_toolbar',
+
     
 
     #my apps
