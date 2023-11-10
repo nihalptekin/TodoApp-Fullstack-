@@ -12,6 +12,7 @@ class ToDoItem(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     def __str__(self):
         return self.title
+    
 class TaskGroup(models.Model):
     name = models.CharField(max_length=50)
     def __str__(self):
